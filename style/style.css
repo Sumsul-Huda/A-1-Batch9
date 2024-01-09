@@ -121,3 +121,35 @@ header {
     font-size: 20px;
     font-weight: 700;
 }
+
+.address-container {
+    width: 1320px;
+    height: 482px;
+    flex-shrink: 0;
+    background-color: #5b454531 ;
+    text-align: center;
+}
+.address-info{
+    color: #F00;
+}
+.address  {
+    padding-top: 150px;
+    
+   
+    font-size: 32px;
+    font-weight: 550;
+    line-height: 50px;
+
+
+}
+
+.button {
+    display: inline-flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 0;
+    border-radius: 5px;
+    background: #F00;
+}
