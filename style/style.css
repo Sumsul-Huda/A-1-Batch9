@@ -47,18 +47,18 @@ header {
 
 /* start main section */
 
-/* This offering section style */
+/* This offering section styles */
 
 .offer-title {
     color: #F00;
     text-align: center;
-    /* padding-left: 450px; */
     font-size: 88px;
     font-weight: 700;
     margin-top: 0px;
     padding: 50px 0px;
 }
-.offer-info{
+
+.offer-info {
     color: #F00;
     text-align: center;
     font-family: Inter;
@@ -67,7 +67,8 @@ header {
     font-weight: 500;
     line-height: normal;
 }
-.offer-items{
+
+.offer-items {
     color: #070211;
     text-align: center;
     font-family: Inter;
@@ -76,11 +77,47 @@ header {
     font-weight: 700;
     line-height: normal;
 }
-.new-year-img{
+
+.new-year-img {
     background-image: url(../resources/New\ Year\ Photo.png);
     background-repeat: no-repeat;
     width: 900px;
     height: 550px;
     margin-top: 40px;
     margin-left: 250px;
+}
+
+/* This my party section styles */
+.party-container {
+    background-image: url(../resources/Vectorrr.png);
+    background-repeat: no-repeat;
+    width: 1320px;
+    height: 350px;
+    padding: 120px 500px 250px 120px;
+}
+
+.party-title {
+    color: #FFF;
+    font-size: 70px;
+    font-weight: 750;
+    line-height: 80px;
+    letter-spacing: 6.5px;
+    width: 642px;
+}
+
+.party-description {
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 670px;
+    padding-top: 10px;
+}
+
+.joining {
+    color: #FFF;
+    padding-top: 50px;
+    /* padding-left: 50px; */
+    font-size: 20px;
+    font-weight: 700;
 }
